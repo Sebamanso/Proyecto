@@ -23,7 +23,7 @@ namespace Materiales
             }
             else
             {
-
+                Response.Redirect("ConAprobadas.aspx");
             }
         }
         public override void VerifyRenderingInServerForm(Control control)
